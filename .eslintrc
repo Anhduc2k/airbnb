@@ -1,0 +1,21 @@
+{
+    "extends": ["eslint-config-prettier", "prettier" ],
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": [
+        "warn",
+        {
+          "arrowParens": "avoid",
+          "semi": false,
+          "trailingComma": "none",
+          "endOfLine": "auto",
+          "tabWidth": 2,
+          "useTabs": false,
+          "singleQuote": true,
+          "printWidth": 120,
+          "jsxSingleQuote": true
+        }
+      ],
+      "no-console": "warn"
+    }
+  }
